@@ -12,7 +12,13 @@ const ShowSuggestion = (props) => {
                 </tr>
             </thead>
             <tbody>
-                {Object.keys(suggestionsData).map(key=>(<tr key={key}><td>{suggestionsData[key].label}</td><td>{suggestionsData[key]['Carbon Footprints']}</td><td>{suggestionsData[key]['Alternative Idea']}</td></tr>))}
+                {Object.keys(suggestionsData).map(key=>(
+                    <tr key={key}>
+                        <td>{suggestionsData[key].label}</td>
+                        <td dangerouslySetInnerHTML={{ __html: suggestionsData[key]['Carbon Footprints']}}></td>
+                        <td dangerouslySetInnerHTML={{ __html: suggestionsData[key]['Alternative Idea']}}></td>
+                    </tr>))
+                }
             </tbody>
         </table>
     )
