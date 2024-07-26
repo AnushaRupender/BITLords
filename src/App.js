@@ -9,7 +9,7 @@ function App() {
   const [suggestionsData, setSuggestionsData] = useState({});
   return (
     <div className="App">
-      <header className="App-header">BIT Lords</header>
+      <header className="App-header">Carbon Sense</header>
       <div className='Content'>
         <div className='InputSection'>
           <div className='InputOptionContainer'>
