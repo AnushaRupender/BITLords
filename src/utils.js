@@ -6,7 +6,7 @@ function filterKeysBySubstring(substring) {
       Object.entries(data).filter(([key]) => key.includes(substring))
     );
   }
-const human = ['head', 'hand', 'face', 'man', 'male', 'girl', 'boy', 'woman', 'adult', 'person', 'people', 'female', 'standing', 'sitting']
+const human = ['head', 'hand', 'face', 'man', 'male', 'girl', 'boy', 'woman', 'adult', 'person', 'people', 'female', 'standing', 'sitting', 'urban']
 
 const getObjectsFromImage = (data) => {
     const objects = {};
