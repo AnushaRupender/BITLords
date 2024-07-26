@@ -1,5 +1,7 @@
 .App {
-  min-height: 100vw;
+  min-height: 80vw;
+  background-color: #E9F1FA;
+  font-family: Gill Sans, Gill Sans MT, Calibri, Trebuchet MS, sans-serif;
 }
 h2, h3, h4{
   margin: .25em;
@@ -65,7 +67,7 @@ tr:nth-child(even) {
 }
 .InputSection {
   display: flex;
-  margin: 15px 0;
+  margin-bottom: 15px;
 }
 table {
   -moz-box-shadow: 0 0 3px #ddd;
