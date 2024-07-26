@@ -65,6 +65,7 @@ tr:nth-child(even) {
 }
 .InputSection {
   display: flex;
+  margin: 15px 0;
 }
 table {
   -moz-box-shadow: 0 0 3px #ddd;
