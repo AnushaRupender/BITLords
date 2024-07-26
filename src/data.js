@@ -226,6 +226,11 @@ export const data = {
         "Carbon Footprints": "0.02 kg CO<sub>2</sub>e per card",
         "Alternative Idea": "Digital business cards or cards printed on recycled paper \nwith eco-friendly ink"
     },
+    "bag": {
+        "Items": "Bags",
+        "Carbon Footprints": "110 kg CO<sub>2</sub>e per bag",
+        "Alternative Idea": "We can alternatively use cotton bag which has 2.5 Kg CO<sub>2</sub>e per bag. <a href='https://www.amazon.in/Vantagekart-Shopping-Washable-Biodegradable-Multipurpose/dp/B08W9MPZ96/ref=sr_1_7?dib=eyJ2IjoiMSJ9.FLGz7N6ip4wXOjiJ_nOBFsDoUBTWkUv0gn2koBrAavdvKWirnq64jNGlvL4lqDJJHosJ9jzgFZL1QMexseh6D9g275779sLcq0DcDJppOBQ2p_ociq07UEL8eDilbjmMfUzc9XeczWX53Q-IwOXPbEH5VUgxR5PMeL9qskca1MFezWjgCHGggD6Eh7_y4SCZ0LODErFrKei1yUGMnXGqykZ-wfozD49VIZGOjh0bbASUMKLFEX64StFrp2TU8bh3IsA-Q1os9SCgxinWjrvhCh9930RhFUX-2axNDXTFtO4.Dnv9v5EvrUw7vM1IFXNpmAYku-DxBYPw_VBfmKnoMA4&dib_tag=se&keywords=cotton+bags&qid=1721976731&sr=8-7'>Cotton Bag</a>"
+    },
     "trashbags": {
         "Items": "Trash Bags",
         "Carbon Footprints": "0.05 kg CO<sub>2</sub>e per bag",
@@ -245,5 +250,50 @@ export const data = {
         "Items": "Shipping materials",
         "Carbon Footprints": "2-3 kg CO<sub>2</sub>e (carbon dioxide equivalent) per pair",
         "Alternative Idea": "Frames made from biodegradable materials like bamboo or plant-based plastics"
+    },
+    "watch": {
+        "Items": "Watch",
+        "Carbon Footprints": "4-6 kg CO2e per kg",
+        "Alternative Idea": "Watches made from recycled metals, wood, or vegan leather"
+    },
+    "cotton t-shirt": {
+        "Items": "Cotton T-Shirt",
+        "Carbon Footprints": "2.1 kg CO2e per shirt",
+        "Alternative Idea": "Clothing made from organic cotton, recycled polyester, and other sustainable materials"
+    },
+    "screen (General Display Screens)": {
+        "Items": "Screen",
+        "Carbon Footprints": "190 kg CO2e for a typical computer screen",
+        "Alternative Idea": " Opt for screens with high energy efficiency ratings (Energy Star certified)"
+    },
+    "monitor": {
+        "Items": "Monitor",
+        "Carbon Footprints": "190 kg CO2e per LCD monitor",
+        "Alternative Idea": "Choose monitors with low power consumption and high energy efficiency ratings"
+    },
+    "bagpack": {
+        "Items": "Bagpack",
+        "Carbon Footprints": "15-25 kg CO2e per bag",
+        "Alternative Idea": "Backpacks made from recycled plastics (e.g., PET bottles) or sustainable fabrics like organic cotton."
+    },
+    "table": {
+        "Items": "Table",
+        "Carbon Footprints": "40-60 kg CO2e per medium-sized wooden table",
+        "Alternative Idea": "Choose tables made from FSC-certified wood or reclaimed wood"
+    },
+    "accessories": {
+        "Items": "Accessories",
+        "Carbon Footprints": "20-40 kg CO2e per accessory",
+        "Alternative Idea": "Accessories made from sustainable or recycled materials (e.g., recycled metals, vegan leather, organic fabrics)"
+    },
+    "speaker": {
+        "Items": "Speaker",
+        "Carbon Footprints": "30-50 kg CO2e per medium-sized speaker",
+        "Alternative Idea": "Choose tables made from FSC-certified wood or reclaimed wood"
+    },
+    "furniture": {
+        "Items": "Furniture",
+        "Carbon Footprints": "40-70 kg CO2e per furniture",
+        "Alternative Idea": "Furniture made from FSC-certified or reclaimed wood"
     }
 }
