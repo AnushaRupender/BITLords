@@ -253,47 +253,62 @@ export const data = {
     },
     "watch": {
         "Items": "Watch",
-        "Carbon Footprints": "4-6 kg CO2e per kg",
+        "Carbon Footprints": "4-6 kg CO<sub>2</sub>e per kg",
         "Alternative Idea": "Watches made from recycled metals, wood, or vegan leather"
     },
-    "cotton t-shirt": {
+    "cottont-shirt": {
         "Items": "Cotton T-Shirt",
-        "Carbon Footprints": "2.1 kg CO2e per shirt",
+        "Carbon Footprints": "2.1 kg CO<sub>2</sub>e per shirt",
         "Alternative Idea": "Clothing made from organic cotton, recycled polyester, and other sustainable materials"
     },
-    "screen (General Display Screens)": {
+    "screen(GeneralDisplayScreens)": {
         "Items": "Screen",
-        "Carbon Footprints": "190 kg CO2e for a typical computer screen",
+        "Carbon Footprints": "190 kg CO<sub>2</sub>e for a typical computer screen",
         "Alternative Idea": " Opt for screens with high energy efficiency ratings (Energy Star certified)"
     },
     "monitor": {
         "Items": "Monitor",
-        "Carbon Footprints": "190 kg CO2e per LCD monitor",
+        "Carbon Footprints": "190 kg CO<sub>2</sub>e per LCD monitor",
         "Alternative Idea": "Choose monitors with low power consumption and high energy efficiency ratings"
     },
     "bagpack": {
         "Items": "Bagpack",
-        "Carbon Footprints": "15-25 kg CO2e per bag",
+        "Carbon Footprints": "15-25 kg CO<sub>2</sub>e per bag",
         "Alternative Idea": "Backpacks made from recycled plastics (e.g., PET bottles) or sustainable fabrics like organic cotton."
     },
     "table": {
         "Items": "Table",
-        "Carbon Footprints": "40-60 kg CO2e per medium-sized wooden table",
+        "Carbon Footprints": "40-60 kg CO<sub>2</sub>e per medium-sized wooden table",
         "Alternative Idea": "Choose tables made from FSC-certified wood or reclaimed wood"
     },
     "accessories": {
         "Items": "Accessories",
-        "Carbon Footprints": "20-40 kg CO2e per accessory",
+        "Carbon Footprints": "20-40 kg CO<sub>2</sub>e per accessory",
         "Alternative Idea": "Accessories made from sustainable or recycled materials (e.g., recycled metals, vegan leather, organic fabrics)"
     },
     "speaker": {
         "Items": "Speaker",
-        "Carbon Footprints": "30-50 kg CO2e per medium-sized speaker",
+        "Carbon Footprints": "30-50 kg CO<sub>2</sub>e per medium-sized speaker",
         "Alternative Idea": "Choose tables made from FSC-certified wood or reclaimed wood"
     },
     "furniture": {
         "Items": "Furniture",
-        "Carbon Footprints": "40-70 kg CO2e per furniture",
+        "Carbon Footprints": "40-70 kg CO<sub>2</sub>e per furniture",
         "Alternative Idea": "Furniture made from FSC-certified or reclaimed wood"
+    },
+    'camera' : {
+        "Items": "Camera",
+        "Carbon Footprints": "70-150 kg CO<sub>2</sub>e per a digital camera",
+        "Alternative Idea": "Choose cameras with low power consumption and energy-efficient features"
+    },
+    'wallet': {
+        "Items": "Wallet",
+        "Carbon Footprints": "5-20 kg CO<sub>2</sub>e per a digital camera",
+        "Alternative Idea": "Opt for wallets made from vegan leather or other sustainable materials like cork or recycled materials"
+    },
+    'pen': {
+        "Items": "Pen",
+        "Carbon Footprints": "0.2-0.3 kg CO<sub>2</sub>e per a digital camera",
+        "Alternative Idea": "Use refillable pens to reduce waste and overall carbon footprint."
     }
 }
