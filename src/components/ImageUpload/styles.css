@@ -68,10 +68,15 @@ input[type="file"] {
   }
 .ImagePreview {
     padding: 15px;
+    -moz-box-shadow: 0 0 3px #ddd;
+    -webkit-box-shadow: 0 0 3px #ddd;
+    box-shadow: 0 0 3px #ddd;
+    border-radius: 4px;
 }
 .ImagePreview img{
     height: 300px;
 }
 .ImageInput {
   margin-top: 85px;
+  display: flex;
 }

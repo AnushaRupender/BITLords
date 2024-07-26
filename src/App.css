@@ -1,36 +1,27 @@
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App {
+  min-height: 100vw;
 }
 h2, h3, h4{
   margin: .25em;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
+  background-color: #0964b0;
   min-height: 60px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 24px;
   color: white;
   font-weight: bold;
 }
 .inputOptions {
   margin: 1em;
 }
-.App-link {
-  color: #61dafb;
+.inputOptions label {
+  cursor: pointer;
 }
 .Content {
-  display: flex;
   padding: 15px;
 }
 .InputOptionContainer {
@@ -39,7 +30,42 @@ h2, h3, h4{
 .InputCaptureContainer {
   flex: 4;
 }
+button {
+  border-radius: 4px;
+  padding: 0 16px;
+  height: 40px;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05);
+  margin-right: 16px;
+  transition: background-color 200ms;
+  color: #0964b0;
+}
+button::after, button::after {
+  background: #f3f4f6;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
 
+td, th {
+  border: 1px solid #0965b0a4;
+  text-align: left;
+  padding: 8px;
+}
+th {
+  color: #0964b0;
+}
+
+tr:nth-child(even) {
+  background-color: #0965b0a4;
+}
+.InputSection {
+  display: flex;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
