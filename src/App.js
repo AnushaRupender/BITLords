@@ -1,8 +1,9 @@
-import React, { useState }  from 'react';
+import React from 'react';
 import './App.css';
 import ImageUpload from './components/ImageUpload'
 import CaptureImage from './components/CaptureImage'
 import ShowSuggestion from './components/ShowSuggestion'
+import { useState } from 'react';
 
 function App() {
   const [inputType, setInputType] = useState();

@@ -4,7 +4,7 @@ const ShowSuggestion = (props) => {
     const {suggestionsData} = props;
     return(
         <>
-            <h3><u>CO<sub>2</sub>e Analysis</u></h3>
+            <h3><u>CO<sub>2</sub> Analysis</u></h3>
             <table>
                 <thead>
                     <tr>

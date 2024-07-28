@@ -18,7 +18,7 @@ const getObjectsFromImage = (data) => {
                 let label = items[i].label.split(' ').join('').toLowerCase();
                 let filteredObj = filterKeysBySubstring(label);
                 let firstKey = Object.keys(filteredObj)[0];
-                if(firstKey && human.indexOf(label) == -1) {
+                if(firstKey && human.indexOf(label) === -1) {
                     objects[items[i].label] = {label: items[i].label, ...filteredObj[firstKey]}
                 }
             }
